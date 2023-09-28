@@ -1,0 +1,32 @@
+.body {
+ background-color: #F9F9F9;
+}
+
+.wrapper {
+    background-color: salmon;
+    width: 98vw;
+    height: 98vh;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+}
+
+.aside {
+    background-color: #D4C24A;
+    width: 25%;
+    height: 100%;
+}
+
+.main {
+    background-color: plum;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 500px;
+}
