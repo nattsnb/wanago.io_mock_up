@@ -37,7 +37,7 @@
 .logo {
     width: 100%;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .social-wrapper {
@@ -48,18 +48,22 @@
 }
 
 .icon {
-    transform: scale(1.3);
+    cursor: pointer;
 }
 
 .twitter-icon {
     margin-top: 15px;
 }
 
-.search-box {
-    margin-top: 50px;
+.search-area {
+    margin-top: 15px;
     display: flex;
-    align-items: center;
-    width: 100%;
+    justify-content: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
 }
 
 .main {
