@@ -70,6 +70,11 @@
 
 .newsletter-wrapper {
     display: flex;
+    flex-direction: column;
+}
+
+.newsletter-header-wrapper {
+    display: flex;
     padding-top: 30px;
     width: 150px;
 }
@@ -80,7 +85,7 @@
     font-size: 18px;
 }
 
-.newsletter-hr {
+.newsletter-header-hr {
     background-color: #D4C24A;
     border: none;
     height: 3px;
@@ -88,6 +93,14 @@
     transform: rotate(90deg);
     display: inline;
     margin-right: 3px;
+}
+
+.newsletter-hr {
+    background-color: #E5E4E2;
+    border: none;
+    height: 1px;
+    width: 90%;
+    display: block;
 }
 
 .main {
