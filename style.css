@@ -2,7 +2,7 @@
     background-color: #F9F9F9;
     padding: 55px 0 0 0;
     font-family: "Roboto", sans-serif;;
-    color: #212224;
+    color: #36454F;
 }
 
 .wrapper {
@@ -101,6 +101,23 @@
     height: 1px;
     width: 90%;
     display: block;
+}
+
+.tick-box-wrapper {
+    width: 90%;
+    padding-left: 10px;
+}
+
+.newsletter-permission {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.privacy-policy-highlight {
+    color: #D4C24A;
+    font-weight: bold;
+    text-decoration: underline;
+
 }
 
 .main {
