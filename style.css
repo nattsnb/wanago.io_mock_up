@@ -117,7 +117,17 @@
     color: #D4C24A;
     font-weight: bold;
     text-decoration: underline;
+}
 
+.subscribe-button {
+    margin-left: 10px;
+    background-color: #D4C24A;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 28px;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
 .main {
