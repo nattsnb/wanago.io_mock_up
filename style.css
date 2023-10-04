@@ -2,6 +2,7 @@
     background-color: #F9F9F9;
     padding: 55px 0 0 0;
     font-family: "Roboto", sans-serif;;
+    color: #212224;
 }
 
 .wrapper {
@@ -69,12 +70,24 @@
 
 .newsletter-wrapper {
     display: flex;
-    flex-direction: column;
     padding-top: 30px;
+    width: 150px;
 }
 
 .newsletter-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.newsletter-hr {
+    background-color: #D4C24A;
+    border: none;
+    height: 3px;
+    width: 35px;
+    transform: rotate(90deg);
+    display: inline;
+    margin-right: 3px;
 }
 
 .main {
