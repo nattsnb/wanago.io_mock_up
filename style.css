@@ -1,6 +1,7 @@
 .body {
     background-color: #F9F9F9;
     padding: 55px 0 0 0;
+    font-family: "Roboto", sans-serif;;
 }
 
 .wrapper {
@@ -52,11 +53,11 @@
 }
 
 .twitter-icon {
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .search-area {
-    margin-top: 15px;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
 }
@@ -64,6 +65,16 @@
 .search-box {
     display: flex;
     justify-content: center;
+}
+
+.newsletter-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.newsletter-header {
+
 }
 
 .main {
