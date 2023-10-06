@@ -226,10 +226,12 @@
 
 .slider {
     background-color: #D4C24A;
-    width: 300px;
+    width: 110px;
     height: 70px;
     border-radius: 10px 0 0 10px;
     position: fixed;
+    right: 0;
+    top: 70%;
 }
 
 .slider-text-box {
@@ -237,8 +239,8 @@
     height: 100%;
     color: white;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    margin-left: 20px;
 }
 
 .footer {
