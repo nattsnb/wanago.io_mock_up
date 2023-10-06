@@ -144,6 +144,11 @@
 
 .navigation-bar-link {
     margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.navigation-bar-link:hover {
+    text-decoration: underline;
 }
 
 .main {
