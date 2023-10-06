@@ -223,3 +223,25 @@
     color: #989B9D;
     margin-top: 25px
 }
+
+.footer {
+    height: 80px;
+    background-color: #EAEAEA;
+    color: #666666;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-span {
+    text-decoration: underline;
+    text-decoration-color: #D4C24A;
+    cursor: pointer;
+}
+
+.footer-span:hover {
+    text-decoration: none;
+}
+
+
