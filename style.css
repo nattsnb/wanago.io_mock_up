@@ -2,7 +2,7 @@
     background-color: #F9F9F9;
     padding: 55px 0 0 0;
     font-family: "Roboto", sans-serif;;
-    color: #212224;
+    color: #575757;
 }
 
 .wrapper {
@@ -27,7 +27,7 @@
 .aside-content {
     background-color: white;
     height: 100%;
-    padding: 45px 30px 20px; 30px;
+    padding: 45px 30px 20px 30px;
 }
 
 .aside-header {
@@ -85,6 +85,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+    color: #212224;
 }
 
 .section-header-hr {
@@ -166,4 +167,45 @@
     height: auto;
     display: flex;
     flex-direction: column;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 30px;
+}
+
+.article-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #212224;
+}
+
+.article-title-hr {
+    background-color: #D4C24A;
+    border: none;
+    height: 2px;
+    width: 35px;
+    display: inline;
+    margin: 0 0 10px 0;
+}
+
+.article-info {
+    font-size: 11px;
+}
+
+.article-info-span {
+    color: #CA6821;
+    cursor: pointer;
+}
+
+.article-info-span:hover {
+    color: #D4C24A;
+    cursor: pointer;
+}
+
+.article-content {
+    font-size: 14px;
+    line-height: 1.7;
 }
