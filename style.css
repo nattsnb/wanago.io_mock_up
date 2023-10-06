@@ -6,16 +6,15 @@
 }
 
 .wrapper {
-    width: 98vw;
     height: 100%;
-    max-width: 1350px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
 }
 
 .aside {
     background-color: #F9F9F9;
-    width: 25%;
+    max-width: 210px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -153,7 +152,7 @@
 
 .main {
     background-color: #F9F9F9;
-    width: 100%;
+    max-width: 780px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -245,6 +244,7 @@
 
 .footer {
     height: 80px;
+    width: 100%;
     background-color: #EAEAEA;
     color: #666666;
     font-size: 11px;
