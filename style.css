@@ -223,3 +223,44 @@
     color: #989B9D;
     margin-top: 25px
 }
+
+.slider {
+    background-color: #D4C24A;
+    width: 110px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    position: fixed;
+    right: 0;
+    top: 70%;
+}
+
+.slider-text-box {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.footer {
+    height: 80px;
+    background-color: #EAEAEA;
+    color: #666666;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-span {
+    text-decoration: underline;
+    text-decoration-color: #D4C24A;
+    cursor: pointer;
+}
+
+.footer-span:hover {
+    text-decoration: none;
+}
+
+
