@@ -1,11 +1,14 @@
 .body {
- background-color: #F9F9F9;
+    background-color: #F9F9F9;
+    padding: 55px 0 0 0;
+    font-family: "Roboto", sans-serif;;
+    color: #36454F;
 }
 
 .wrapper {
     background-color: salmon;
     width: 98vw;
-    height: 98vh;
+    height: 100%;
     max-width: 1350px;
     margin: auto;
     display: flex;
@@ -17,12 +20,135 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0 15px 0 15px;
 }
 
 .aside-content {
     background-color: white;
     height: 100%;
+    padding: 45px 30px 20px; 30px;
+}
+
+.aside-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 70%;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.twitter-icon {
+    margin-top: 5px;
+}
+
+.search-area {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header-wrapper {
+    margin: 0px;
+    display: flex;
+    margin-top: 50px;
+    width: 180px;
+    justify-content: flex-start;
+}
+
+.section-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-header-hr {
+    background-color: #D4C24A;
+    border: none;
+    height: 3px;
+    width: 35px;
+    transform: rotate(90deg);
+    display: inline;
+    margin-right: 3px;
+}
+
+.section-hr {
+    background-color: #E5E4E2;
+    border: none;
+    height: 1px;
+    width: 90%;
+    display: block;
+}
+
+.tick-box-wrapper {
+    width: 90%;
+    padding-left: 10px;
+}
+
+.newsletter-permission {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.privacy-policy-highlight {
+    color: #D4C24A;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.subscribe-button {
+    margin-left: 10px;
+    background-color: #D4C24A;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 28px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
+.navigation-bar-link {
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.navigation-bar-link:hover {
+    text-decoration: underline;
 }
 
 .main {
